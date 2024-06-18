@@ -36,7 +36,9 @@ class _ListScreenState extends State<ListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Emails'),
+        title: const Text('Buzón de Emails Josué'),
+        centerTitle: true,
+        backgroundColor: Colors.amber,
       ),
       body: ListView.separated(
         itemCount: _emails.length,

@@ -11,6 +11,7 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(email.subject),
+         backgroundColor: Colors.amberAccent,
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
